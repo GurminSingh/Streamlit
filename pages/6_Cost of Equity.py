@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Cost of Debt")
 import sys
-sys.path.append('/Users/gavysingh/Downloads/streamlit-multipage-app-example-master')  # Replace 'path/to/directory' with the actual path
+sys.path.append('https://github.com/GurminSingh/Streamlit.git')  # Replace 'path/to/directory' with the actual path
 
 from Valuation import erp,shares_outstanding,Current_Share_Price,definitive_coef_0,definitive_coef_2,stati_mean_SMB,marketCap,definitive_coef_1,stati_mean_HML,cost_of_equity
 import pandas as pd
