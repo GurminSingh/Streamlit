@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("DCF")
 import sys
-sys.path.append('/Users/gavysingh/Downloads/streamlit-multipage-app-example-master')  # Replace 'path/to/directory' with the actual path
+sys.path.append('https://github.com/GurminSingh/Streamlit.git')  # Replace 'path/to/directory' with the actual path
 
 from Valuation import sum_DCF,Discounted_Terminal_Value,Forecasted_Enterprise_Value,mv_debt,last_cash,Forecasted_Market_Cap,Forecasted_Share_Price,Current_Share_Price,gap_in_pct,wacc,share_price_mt
 import pandas as pd
