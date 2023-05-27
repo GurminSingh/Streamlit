@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("WACC")
 import sys
-sys.path.append('/Users/gavysingh/Downloads/streamlit-multipage-app-example-master')  # Replace 'path/to/directory' with the actual path
+sys.path.append('https://github.com/GurminSingh/Streamlit.git')  # Replace 'path/to/directory' with the actual path
 
 from Valuation import cost_of_equity,cost_of_debt,cap_structure,w_cost_equity,w_cost_debt,wacc
 import pandas as pd
