@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Cost of Debt")
 import sys
-sys.path.append('/Users/gavysingh/Downloads/streamlit-multipage-app-example-master')  # Replace 'path/to/directory' with the actual path
+sys.path.append('https://github.com/GurminSingh/Streamlit.git')  # Replace 'path/to/directory' with the actual path
 
 from Valuation import df, ratio, spread,total_debt,w_avg_maturity,cost_of_debt,debts,mv_debt,rf
 
